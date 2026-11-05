@@ -1,0 +1,6 @@
+﻿Etapa;Decisão de Tratamento;Linhas (Antes);Linhas (Depois);Variação (Δ);Justificativa Técnica
+processamento;remoção de duplicatas exatas;1223;1200;-23;registros idênticos importados duas vezes inflavam o faturamento
+processamento;padronização do nome da loja (strip + title);1200;1200;0;8 grafias distintas reduzidas para 4 lojas reais
+processamento;remoção de registros fora do domínio;1200;1190;-10;quantidade negativa e preparo de 0 ou acima de 60 min são erro de registro
+processamento;imputação da quantidade ausente pela mediana;1190;1190;0;"18 registros imputados; mediana = 2 item"
+processamento;harmonização do tempo de espera na grade de 5 min;640;640;0;comparar tempo de espera exige a grade de 5 min do instrumento mais grosseiro

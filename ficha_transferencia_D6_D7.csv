@@ -1,0 +1,9 @@
+parâmetro;valor;onde será consumido
+Medida de posição do faturamento;mediana R$ 39,50 (média infla 25%);D7 e D8 — reportar mediana como 'típico'
+Assimetria do faturamento;1.45 (cauda à direita);D7 — usar Spearman em correlações com ele
+Critério de outlier adotado;Tukey 1,5·IQR, declarado;D7 — mesma régua para anomalias
+Valores extremos;23 dias-loja SINALIZADOS, nenhum removido;D7 — investigar como anomalia
+Perfil dos extremos;12 em fim de semana, 14 em Boa Viagem;D7 — hipótese de padrão sazonal
+CV bloqueado;temperatura é intervalar — sem coeficiente de variação;D7 e D8 — não reportar
+Dispersão da espera;Boa Viagem IQR 7,5 min x Espinheiro 2,5 min;D7 — irregularidade, não só lentidão
+Transformação;"nenhuma aplicada à base; log disponível se necessário";D7 — declarar se usar
